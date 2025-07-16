@@ -1,8 +1,20 @@
-body {
+body.all {
     background: url(images/hintergrund.png);
     background-size: cover;
     font-family:'Times New Roman', Times, serif;
     margin: 0;
+}
+
+body.christophsollteseinenmacbookabgebenundzuwindowswechseln {
+    background-color: black;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+    margin: 25px
+}
+
+.reg {
+    margin-bottom: 15px;
 }
 
 button {
@@ -12,6 +24,15 @@ button {
 .fatseal {
     font-size: xx-large;
     font-weight: bolder;
+}
+
+.chunkyseal {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.bernd {
+    font-size:larger
 }
 
 .sternenleiste {
@@ -76,6 +97,21 @@ button {
     padding: 5px;
     margin-bottom: 6px;
     position: relative;
+}
+
+.no {
+        background-color: transparent;
+        border: 1px solid red;
+        color:red;
+        font-size: large;
+        margin-bottom: 5px;
+        margin-top: 5px;
+}
+
+.EZ {
+    background:red;
+    border: 1px solid darkred;
+    font-size: larger;
 }
 
 .box button {
